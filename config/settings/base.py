@@ -37,6 +37,20 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    # Django + 3rd-party
+    'rest_framework',
+    # 'rest_framework_simplejwt',
+    'drf_yasg',
+
+    # Additional apps
+    'apps.core.apps.CoreConfig',
+    'apps.users.apps.UsersConfig',
+    'apps.products.apps.ProductsConfig',
+    'apps.orders.apps.OrdersConfig',
+    'apps.payments.apps.PaymentsConfig',
+    'apps.cart.apps.CartConfig',
+    'apps.chatbot.apps.ChatbotConfig',
 ]
 
 MIDDLEWARE = [
